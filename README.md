@@ -11,7 +11,7 @@ $x_i^{(k)} =  \gamma^{(k)} \space (x_i^{(k-1)}, \space \square_{j\in N(i)}\phi^{
 
 - $x_i^{(k-1)}$ : denotes node features of node $i$ in layer $(k-1)$ 
 - $e_{j, i} \in R^D$ : edge features from node $j$ to node $i$ (optional) 
-- $square$ : a differentiable, permutation invariant function, e.g. sum, mean, or max 
+- $\square$ : a differentiable, permutation invariant function, e.g. sum, mean, or max 
 - $\gamma$ , $\phi$ : differentiable functions such as MLPs (Multiple Layer Perceptrons) 
 
 </br>  
