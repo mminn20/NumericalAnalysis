@@ -18,7 +18,7 @@ $x_i^{(k)} =  \gamma^{(k)} \space (x_i^{(k-1)}, \space \square_{j\in\Nu(i)}\phi^
 
 ### MPNN variant
 
-$x_i^{(k)} = \gamma^{(k)} \space (CONCAT[x_i^(k-1), \Sigma \space _{j\in\boxtimes(i)} \space \phi^{(k)} \space (e_{j, i} \space \cdot (x_j^{(k-1)} - x_i^{(k-1)}))])$
+$x_i^{(k)}$ $=$ $\gamma^{(k)} \space (CONCAT[x_i^{(k-1)}, \Sigma \space _{j\in\boxtimes(i)} \space \phi^{(k)} \space (e_{j, i} \space \cdot (x_j^{(k-1)} - x_i^{(k-1)}))])$
 
 </br>
 
